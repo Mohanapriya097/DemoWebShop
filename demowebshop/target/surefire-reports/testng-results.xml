@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Surefire suite has started execution]]>
+    </line>
+    <line>
+      <![CDATA[addAddressTest test script execution started]]>
+    </line>
+    <line>
+      <![CDATA[addAddressTest test script successfully executed]]>
+    </line>
+    <line>
+      <![CDATA[demoTest test script execution started]]>
+    </line>
+    <line>
+      <![CDATA[Demo Web Shop]]>
+    </line>
+    <line>
+      <![CDATA[demoTest test script successfully executed]]>
+    </line>
+    <line>
+      <![CDATA[loginTest test script execution started]]>
+    </line>
+    <line>
+      <![CDATA[loginTest test script successfully executed]]>
+    </line>
+    <line>
+      <![CDATA[loginTest test script execution started]]>
+    </line>
+    <line>
+      <![CDATA[loginTest test script successfully executed]]>
+    </line>
+    <line>
+      <![CDATA[loginTest test script execution started]]>
+    </line>
+    <line>
+      <![CDATA[loginTest test script successfully executed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-06-02T18:06:31 IST" name="Surefire suite" finished-at="2024-06-02T18:07:40 IST" duration-ms="68524">
+    <groups>
+    </groups>
+    <test started-at="2024-06-02T18:06:31 IST" name="Surefire test" finished-at="2024-06-02T18:07:40 IST" duration-ms="68524">
+      <class name="demo.AddAddressTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:demo.AddAddressTest@9225652]" started-at="2024-06-02T18:06:31 IST" name="openBrowser" finished-at="2024-06-02T18:06:38 IST" duration-ms="6484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:demo.AddAddressTest@9225652]" started-at="2024-06-02T18:06:38 IST" name="login" finished-at="2024-06-02T18:06:44 IST" duration-ms="5860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="addAddressTest()[pri:0, instance:demo.AddAddressTest@9225652]" started-at="2024-06-02T18:06:44 IST" name="addAddressTest" finished-at="2024-06-02T18:06:44 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[addAddressTest test script execution started]]>
+            </line>
+            <line>
+              <![CDATA[addAddressTest test script successfully executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addAddressTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:demo.AddAddressTest@9225652]" started-at="2024-06-02T18:06:44 IST" name="logout" finished-at="2024-06-02T18:06:47 IST" duration-ms="3909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:demo.AddAddressTest@9225652]" started-at="2024-06-02T18:06:47 IST" name="closeBrowser" finished-at="2024-06-02T18:06:48 IST" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- demo.AddAddressTest -->
+      <class name="demo.DemoTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:demo.DemoTest@9353778]" started-at="2024-06-02T18:06:48 IST" name="openBrowser" finished-at="2024-06-02T18:06:55 IST" duration-ms="7298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:demo.DemoTest@9353778]" started-at="2024-06-02T18:06:55 IST" name="login" finished-at="2024-06-02T18:07:02 IST" duration-ms="6721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="demoTest()[pri:0, instance:demo.DemoTest@9353778]" started-at="2024-06-02T18:07:02 IST" name="demoTest" finished-at="2024-06-02T18:07:02 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[demoTest test script execution started]]>
+            </line>
+            <line>
+              <![CDATA[Demo Web Shop]]>
+            </line>
+            <line>
+              <![CDATA[demoTest test script successfully executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- demoTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:demo.DemoTest@9353778]" started-at="2024-06-02T18:07:02 IST" name="logout" finished-at="2024-06-02T18:07:04 IST" duration-ms="2705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:demo.DemoTest@9353778]" started-at="2024-06-02T18:07:04 IST" name="closeBrowser" finished-at="2024-06-02T18:07:05 IST" duration-ms="382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- demo.DemoTest -->
+      <class name="demo.LoginTest">
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:demo.LoginTest@6a28ffa4]" started-at="2024-06-02T18:07:05 IST" name="loginTest" data-provider="dataSupplier" finished-at="2024-06-02T18:07:17 IST" duration-ms="11792" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[manugowda123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[loginTest test script execution started]]>
+            </line>
+            <line>
+              <![CDATA[loginTest test script successfully executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:demo.LoginTest@6a28ffa4]" started-at="2024-06-02T18:07:17 IST" name="loginTest" data-provider="dataSupplier" finished-at="2024-06-02T18:07:31 IST" duration-ms="13890" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[loginTest test script execution started]]>
+            </line>
+            <line>
+              <![CDATA[loginTest test script successfully executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:demo.LoginTest@6a28ffa4]" started-at="2024-06-02T18:07:31 IST" name="loginTest" data-provider="dataSupplier" finished-at="2024-06-02T18:07:40 IST" duration-ms="8610" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[loginTest test script execution started]]>
+            </line>
+            <line>
+              <![CDATA[loginTest test script successfully executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- demo.LoginTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

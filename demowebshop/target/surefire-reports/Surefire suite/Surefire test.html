@@ -1,0 +1,146 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Jun 02 18:06:31 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>68 seconds (68524 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='demo.AddAddressTest.addAddressTest()'><b>addAddressTest</b><br>Test class: demo.AddAddressTest<br/>
+<a href="#Output-1137078855" onClick='toggleBox("Output-1137078855", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1137078855" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1137078855">
+addAddressTest test script execution started<br/>
+addAddressTest test script successfully executed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>demo.AddAddressTest@9225652</td></tr>
+<tr>
+<td title='demo.LoginTest.loginTest()'><b>loginTest</b><br>Test class: demo.LoginTest<br>Parameters: manugowda123@gmail.com, 12345678<br/>
+<a href="#Output-38647502" onClick='toggleBox("Output-38647502", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-38647502" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-38647502">
+loginTest test script execution started<br/>
+loginTest test script successfully executed<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>demo.LoginTest@6a28ffa4</td></tr>
+<tr>
+<td title='demo.LoginTest.loginTest()'><b>loginTest</b><br>Test class: demo.LoginTest<br>Parameters: Admin, Admin123<br/>
+<a href="#Output-318555935" onClick='toggleBox("Output-318555935", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-318555935" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-318555935">
+loginTest test script execution started<br/>
+loginTest test script successfully executed<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>demo.LoginTest@6a28ffa4</td></tr>
+<tr>
+<td title='demo.LoginTest.loginTest()'><b>loginTest</b><br>Test class: demo.LoginTest<br>Parameters: Test, Test123<br/>
+<a href="#Output-1043535321" onClick='toggleBox("Output-1043535321", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1043535321" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1043535321">
+loginTest test script execution started<br/>
+loginTest test script successfully executed<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>demo.LoginTest@6a28ffa4</td></tr>
+<tr>
+<td title='demo.DemoTest.demoTest()'><b>demoTest</b><br>Test class: demo.DemoTest<br/>
+<a href="#Output-1630841930" onClick='toggleBox("Output-1630841930", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1630841930" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1630841930">
+demoTest test script execution started<br/>
+Demo Web Shop<br/>
+demoTest test script successfully executed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>demo.DemoTest@9353778</td></tr>
+</table><p>
+</body>
+</html>

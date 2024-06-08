@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RegressionTest">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="demo.DemoTest"/>
+      <class name="demo.Demo4"/>
+      <class name="demo.Demo3Failed"/>
+      <class name="demo.LoginTest"/>
+      <class name="demo.AddAddressTest"/>
+      <class name="demo.Asserts"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- RegressionTest -->
